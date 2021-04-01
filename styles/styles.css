@@ -102,7 +102,7 @@ h2 {
   color: var(--light-blue);
 }
 
-.navbar ul {
+.navbar > ul {
   display: flex;
 }
 
