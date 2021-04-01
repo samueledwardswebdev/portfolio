@@ -1,0 +1,102 @@
+:root {
+  --dark-blue: #222831;
+  --grey-clr: #393e46;
+  --light-blue: #00adb5;
+  --white-clr: #eeeeee;
+}
+
+/* Utilities */
+
+.container {
+  width: 100%;
+  padding: 0 1rem;
+}
+
+#header {
+  border-radius: 0 0 0 5rem;
+}
+
+/* Navbar */
+
+.navbar {
+  width: 100%;
+  padding: 1rem;
+}
+
+.navbar ul {
+  display: none;
+}
+
+#hamburger {
+  display: block;
+  font-size: 2rem;
+  color: var(--white-clr);
+}
+
+/* Showcase */
+
+.showcase {
+  text-align: center;
+}
+
+.showcase h2 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+/* Services */
+
+#services {
+  padding-top: 3rem;
+}
+
+#services h2 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.services-container {
+  grid-template-columns: repeat(1,1fr);
+}
+
+/* Portfolio */
+
+#portfolio {
+  padding: 3rem 0;
+}
+
+#portfolio h2 {
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+.portfolio-container {
+  grid-template-columns: repeat(1,1fr);
+}
+
+.item-1 { background: url('../img/mock-up-1.png') no-repeat center center/contain}
+.item-2 { background: url('../img/mock-up-2.png') no-repeat center center/contain}
+
+
+.portfolio-content {
+  display: none;
+}
+
+/* Banner */
+
+#banner {
+  padding: 3rem 0;
+}
+
+.banner-container {
+  border-radius: 0 5rem 0 5rem;
+}
+
+.banner-content {
+  text-align: center;
+  padding: 1rem;
+}
+
+.banner-content h2 {
+  font-size: 2rem;
+}
